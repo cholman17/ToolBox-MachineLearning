@@ -1,0 +1,14 @@
+Questions -- Toolbox for Machine Learning
+Christina Holman (SoftDes Fall 2016)
+
+What is the general trend in the curve?
+	It's pretty linear and positively correlated with training percentage. The larger the training portion, the better the test accuracy.
+
+Are there parts of the curve that appear to be noisier than others?  Why?
+	I've found that it's noisier near the bottom of the curve, most likely because the training values are less, making less accurate tests.
+
+How many trials do you need to get a smooth curve?
+	I didn't start getting a "smooth" curve until num_trials = 30 or higher.
+
+Try different values for C (by changing LogisticRegression(C=10**-10)).  What happens?
+	
